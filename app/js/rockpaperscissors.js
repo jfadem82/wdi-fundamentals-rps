@@ -46,7 +46,7 @@ function playToFive() {
     /* YOUR CODE HERE */
     
     
-    while (playerWins < 5 || computerWins < 5){
+    while (playerWins < 5 && computerWins < 5){
         (console.log( "winner", winner ))
         winner = getWinner( getPlayerMove(), getComputerMove() )
         if ( winner === "player" ){
